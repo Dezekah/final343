@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Fuller, Dezekah Final",
+  title: "Qureshi, Anique Final",
 };
 
 export default function RootLayout({ children }) {
