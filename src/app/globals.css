@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+  @apply bg-gray-100 font-sans min-h-screen antialiased;
+}
+
 /* Body base styles */
 body {
   @apply bg-gray-100 font-sans;
