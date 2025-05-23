@@ -1,8 +1,24 @@
 export default function Home() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-orange-50 font-sans">
-      <main className="bg-white rounded-xl shadow-lg p-8 max-w-xl w-full">
-        {/* Header with baby pink background */}
+    <div className="min-h-screen bg-black text-white font-sans px-6 py-10 space-y-16">
+      {/* Hero Section */}
+      <section className="text-center max-w-2xl mx-auto">
+        <h1 className="text-5xl md:text-7xl font-bold mb-6">
+          Welcome to Dezekahf
+        </h1>
+        <p className="text-lg md:text-2xl mb-8 text-gray-300">
+          Your spiritual journey starts here. Explore the Quran, Hadith, and inspiring lectures.
+        </p>
+        <a
+          href="#explore"
+          className="inline-block bg-white text-black px-6 py-3 rounded-full font-semibold hover:bg-gray-300 transition"
+        >
+          Explore Now
+        </a>
+      </section>
+
+      {/* Your Original Final Exam Card */}
+      <main className="bg-white rounded-xl shadow-lg p-8 max-w-xl mx-auto text-black">
         <div className="bg-pink-100 rounded-lg px-6 py-4 mb-6">
           <h1 className="text-3xl font-bold mb-2 text-center">
             Final Exam 343 <span role="img" aria-label="sparkles">✨</span>
