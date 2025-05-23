@@ -1,13 +1,13 @@
 export default function Home() {
   return (
-    <div className="min-h-screen bg-black text-white font-sans px-6 py-10 space-y-16">
+    <div className="min-h-screen bg-orange text-white font-sans px-6 py-10 space-y-16">
       {/* Hero Section */}
       <section className="text-center max-w-2xl mx-auto">
         <h1 className="text-5xl md:text-7xl font-bold mb-6">
-          Welcome to Dezekahf
+          Welcome to Dezia's Recipes
         </h1>
         <p className="text-lg md:text-2xl mb-8 text-gray-300">
-          Your spiritual journey starts here. Explore the Quran, Hadith, and inspiring lectures.
+          Your spiritual culinary journey starts here!
         </p>
         <a
           href="#explore"
