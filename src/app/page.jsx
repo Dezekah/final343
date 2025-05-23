@@ -7,7 +7,7 @@ export default function Home() {
           Welcome to Dezia's Recipes
         </h1>
         <p className="text-lg md:text-2xl mb-8 text-gray-300">
-          Your spiritual culinary journey starts here!
+          Your culinary journey starts here!
         </p>
         <a
           href="#explore"
